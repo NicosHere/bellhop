@@ -1,43 +1,43 @@
 ~function() {
     var Period = {
         A: {
-            name: "A",
+            name: "0 Period",
             color: "#e57373"
         },
         B: {
-            name: "B",
+            name: "1st Period",
             color: "#4DB6AC"
         },
         C: {
-            name: "C",
+            name: "2nd Period",
             color: "#4FC3F7"
         },
         D: {
-            name: "D",
+            name: "3rd Period",
             color: "#AED581"
         },
         E: {
-            name: "E",
+            name: "4th Period",
             color: "#FFF176"
         },
         F: {
-            name: "F",
+            name: "5th Period",
             color: "#FF8A65"
         },
         G: {
-            name: "G",
+            name: "6th Period",
             color: "#F06292"
         },
-        Tutorial: {
-            name: "Tutorial",
+        H: {
+            name: "7th Period",
             color: "#7986CB"
         },
-        Lunch: {
-            name: "Lunch",
+        O: {
+            name: "Teacher Office Hours",
             color: "#FFECB3"
         },
-        Brunch: {
-            name: "Brunch",
+        Z: {
+            name: "Professional Development",
             color: "#ffcdd2"
         },
         Assembly: {
@@ -55,54 +55,38 @@
     };
     var Schedule = {
         "Monday": [
-            {type: Period.A, start: '8:25', end: '9:45'},
-            {type: Period.Brunch, start: '9:45', end: '10:00'},
-            {type: Period.B, start: '10:00', end: '11:15'},
-            {type: Period.C, start: '11:25', end: '12:40'},
-            {type: Period.Lunch, start: '12:40', end: '13:20'},
-            {type: Period.F, start: '13:20', end: '14:35'},
-            {type: Period.Staff, start: '14:45', end: '15:35'},
-            {type: Period.Done, start: '15:35'}
         ],
         "Tuesday": [
-            {type: Period.D, start: '8:25', end: '9:45'},
-            {type: Period.Brunch, start: '9:45', end: '10:00'},
-            {type: Period.Tutorial, start: '10:00', end: '10:50'},
-            {type: Period.E, start: '11:00', end: '12:15'},
-            {type: Period.Lunch, start: '12:15', end: '12:55'},
-            {type: Period.A, start: '12:55', end: '14:15'},
-            {type: Period.G, start: '14:25', end: '15:40'},
-            {type: Period.Done, start: '15:40'}
+            {type: Period.B, start: '8:30', end: '9:30'},
+            {type: Period.C, start: '9:30', end: '10:30'},
+            {type: Period.D, start: '10:30', end: '10:30'},
+            {type: Period.H, start: '11:30', end: '12:30'},
+            {type: Period.O, start: '12:30', end: '24:00'},
+            {type: Period.Done, start: '24:00', end: '24:00'}
         ],
         "Wednesday": [
-            {type: Period.B, start: '8:25', end: '9:50'},
-            {type: Period.Brunch, start: '9:50', end: '10:05'},
-            {type: Period.C, start: '10:05', end: '11:25'},
-            {type: Period.D, start: '11:35', end: '12:55'},
-            {type: Period.Lunch, start: '12:55', end: '13:35'},
-            {type: Period.F, start: '13:35', end: '14:55'},
-            {type: Period.Staff, start: '15:05', end: '15:45"'},
-            {type: Period.Done, start: '15:45'}
+            {type: Period.A, start: '7:30', end: '8:30'},
+            {type: Period.E, start: '8:30', end: '9:30'},
+            {type: Period.F, start: '9:30', end: '10:30'},
+            {type: Period.G, start: '10:30', end: '11:30'},
+            {type: Period.O, start: '11:30', end: '24:00'},
+            {type: Period.Done, start: '24:00', end: '24:00'}
         ],
         "Thursday": [
-            {type: Period.E, start: '8:25', end: '9:50'},
-            {type: Period.Brunch, start: '9:50', end: '10:05'},
-            {type: Period.A, start: '10:05', end: '11:15'},
-            {type: Period.B, start: '11:25', end: '12:35'},
-            {type: Period.Lunch, start: '12:35', end: '13:15'},
-            {type: Period.G, start: '13:15', end: '14:35'},
-            {type: Period.Tutorial, start: '14:45', end: '15:35'},
-            {type: Period.Done, start: '15:35'}
+            {type: Period.B, start: '8:30', end: '9:30'},
+            {type: Period.C, start: '9:30', end: '10:30'},
+            {type: Period.D, start: '10:30', end: '10:30'},
+            {type: Period.H, start: '11:30', end: '12:30'},
+            {type: Period.O, start: '12:30', end: '24:00'},
+            {type: Period.Done, start: '24:00', end: '24:00'}
         ],
         "Friday": [
-            {type: Period.C, start: '8:25', end: '9:40'},
-            {type: Period.Brunch, start: '9:40', end: '9:55'},
-            {type: Period.D, start: '9:55', end: '11:05'},
-            {type: Period.E, start: '11:15', end: '12:25'},
-            {type: Period.Lunch, start: '12:25', end: '13:05'},
-            {type: Period.F, start: '13:05', end: '14:15'},
-            {type: Period.G, start: '14:25', end: '15:35'},
-            {type: Period.Done, start: '15:35'}
+            {type: Period.A, start: '7:30', end: '8:30'},
+            {type: Period.E, start: '8:30', end: '9:30'},
+            {type: Period.F, start: '9:30', end: '10:30'},
+            {type: Period.G, start: '10:30', end: '11:30'},
+            {type: Period.O, start: '11:30', end: '24:00'},
+            {type: Period.Done, start: '24:00', end: '24:00'}
         ]
     };
 /*
